@@ -7,11 +7,42 @@ body {
 /* the styles for the header */
 header img {
 	float: left;
+	height: 80px;
+	margin-left: 1em;
 }
 
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+header strong {
+	font-weight: 900;
+	text-shadow: 2px 2px;
+	font-size: 135%;
+}
 /* the styles for the section */
 main {
 	clear: left;
+	margin-left: .5em;
 }
+main h1 {
+	font-size: 150%;
+}
+main h2{
+	font-size: 130%;
+	color: #800000;
+}
+main h3 { font-size: 105% }
 
+a { font-weight: bold; }
+a:link { color: blue; }
+a:visited { color: #f2972e }
+a:hover, a:focus { font-style: italic; }
 /* the styles for the footer */
+footer p { text-align: center; }
