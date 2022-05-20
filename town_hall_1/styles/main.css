@@ -1,25 +1,50 @@
+/*Styles for the html elements */
+html{
+	background-color: white;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+/*link styles */
+a { font-weight: bold; }
+a:link { color: blue; }
+a:visited { color: #f2972e }
+a:hover, a:focus { font-style: italic; }
+
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+  font-size: 100%;
+	width: 600px;
+  background-color: #fffded;
+	margin: 0 auto;
+	border-top: 3px solid #931420;
+	border-left: 3px solid #931420;
+	border-right: 3px solid #931420;
 }
 
 /* the styles for the header */
+header{
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
 header img {
 	float: left;
-	height: 80px;
-	margin-left: 1em;
-}
+	padding-left: 30px;
+	padding-right: 30px;
 
+}
 header h2 {
 	font-size: 170%;
 	color: #800000;
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 header strong {
 	font-weight: 900;
@@ -30,19 +55,53 @@ header strong {
 main {
 	clear: left;
 	margin-left: .5em;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+main img {
+	padding-bottom: 1em;
+}
+main p {
+	padding-bottom: .5em;
+}
+main ul {
+	padding-bottom: .25em;
+	padding-left: 2em;
+}
+main li{
+	padding-bottom: .35em;
+}
+main q {
+	padding-left: 2em;
+	padding-right: 2em;
+	font-style: italic;
 }
 main h1 {
 	font-size: 150%;
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+	padding-top: .3em;
+	padding-bottom: .3em;
 }
-main h2{
+main h2 {
 	font-size: 130%;
 	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
 }
-main h3 { font-size: 105% }
-
-a { font-weight: bold; }
-a:link { color: blue; }
-a:visited { color: #f2972e }
-a:hover, a:focus { font-style: italic; }
+main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
 /* the styles for the footer */
-footer p { text-align: center; }
+footer {
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+	background-color: #931420;
+}
+footer p {
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
