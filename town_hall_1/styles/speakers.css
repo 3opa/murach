@@ -84,8 +84,9 @@ section h2 {
 }
 section h1 {
 	font-size: 150%;
+	color: #931420;
 	padding-top: .5em;
-	padding-bottom: .25em;
+	padding-bottom: .2em;
 	margin-top: 0; /* explicitly set margins */
 	margin-bottom: 0;
 }
@@ -93,8 +94,6 @@ section h1 {
 article {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article img {
 	float: right;
@@ -104,7 +103,9 @@ article img {
 	padding-bottom: 0;
 }
 article h2 {
+	font-size: 115%;
 	padding-top: 0;
+	color: black;
 }
 article h3 {
 	font-size: 105%;
